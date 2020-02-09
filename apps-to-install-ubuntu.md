@@ -22,6 +22,20 @@ Ubuntu - Applications to Install
             - Poper Blocker
             - uBlock Origin
 
+
+* Cliqz - [Website](https://cliqz.com/en/desktop/cliqz-for-linux)
+
+        # GPG key
+        sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 4E0C443A
+
+        # Repository
+        echo deb http://repository.cliqz.com/dist/debian-release stable main | sudo tee /etc/apt/sources.list.d/cliqz.list
+
+        # Installation
+        sudo apt-get update
+        sudo apt-get install cliqz
+
+
 * Shutter - [Website](https://shutter-project.org/)
 
         # URL
